@@ -14,6 +14,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="text/javascript" href="js/main.js">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -22,16 +23,73 @@
         <![endif]-->
 
         <div id="top">
-            <table>
-                <tr>
-                    <td><a href="#"><img src="#" alt logo></a></td>
-                    <td><a href="#">Home </a></td>
-                    <td><a href="#"> Products </a></td>
-                    <td><a href="#"></a> Q & A </td>
-                </tr>
-            </table>
+            <a href="#"><img src="img/bikeLogo.png" width="150px" height="75px" alt="logo" style="float:left;"></a>
+            <center>
+                <table>
+                    <tr>
+                        <td><a href="#">Home </a></td>
+                        <td><a href="#"> Products </a></td>
+                        <td><a href="#"></a> Q & A </td>
+                    </tr>
+                </table>
+            </center>
         </div>
         <div id="Container">
+             <div id="sidebar">
+                    <div id="menu" class="article">
+                      <script type="text/javascript">
+                            function unhide(divID) {
+                                var item = document.getElementById(divID);
+                                if (item) {
+                                    item.className=(item.className=='hidden')?'unhidden':'hidden';
+                                }
+                            }
+                            function hideAll() {     
+                                var divs = document.getElementsByTagName('div');     
+                                for(var i = divs.length; i-- ;) {         
+                                    var div = divs[i];         
+                                    if(div.className == 'unhidden') {             
+                                        div.className ='hidden';   
+                                    }     
+                                }
+                            }
+                         </script>
+                        <h3>
+                            Products
+                        </h3>
+                        <ul>
+                            <li><a href="javascript:unhide('1');" onclick="hideAll()">group 1</a></li>
+                            <ul id="1" class="hidden">
+                                 <li><a onclick='product1()' >product 1</a></li>
+                                <li>product 2</li>
+                                <li>product 3</li>
+                                <li>product 4</li>
+                            </ul>
+                            <li><a href="javascript:unhide('2');" onclick="hideAll()">group 2</a></li>
+                            <ul id="2" class="hidden">
+                                <li>product 5</li>
+                                <li>product 6</li>
+                                <li>product 7</li>
+                                <li>product 8</li>
+                            </ul>
+                            <li><a href="javascript:unhide('3');" onclick="hideAll()">group 3</a></li>
+                            <ul id="3" class="hidden">
+                                <li>product 9</li>
+                                <li>product 10</li>
+                                <li>product 11</li>
+                                <li>product 12</li>
+                            </ul>
+                            <li><a href="javascript:unhide('4');" onclick="hideAll()">group 4</a></li>
+                            <ul id="4" class="hidden">
+                                <li>product 13</li>
+                                <li>product 14</li>
+                                <li>product 15</li>
+                                <li>product 16</li>
+                            </ul>
+                        </ul>
+                </div>
+                <div style="clear: both;">&nbsp;</div><!--THIS IS NEEDED FOR MAKING THE FOOTER GO ALL THE WAY TO THE BOTTOM-->
+            </div>
             <div id="main" class="right">
                 <div id="product"class="article" >
                     <h2>
@@ -57,17 +115,7 @@
                         
                     </div>
                     <div id="pic">
-                        <center>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                        </br>
-                    </br>
-                            PUT IMG HERE 
-                        </center>
+                        
                     </div>
                     <div class="productINFO2">
                         <h3>
@@ -88,64 +136,39 @@
                 </div>
 
             </div>
-            <div id="sidebar">
-                <div id="menu" class="article">
-                  <script type="text/javascript">
-                        function unhide(divID) {
-                            var item = document.getElementById(divID);
-                            if (item) {
-                                item.className=(item.className=='hidden')?'unhidden':'hidden';
-                            }
-                        }
-                        function hideAll() {     
-                            var divs = document.getElementsByTagName('div');     
-                            for(var i = divs.length; i-- ;) {         
-                                var div = divs[i];         
-                                if(div.className == 'unhidden') {             
-                                    div.className ='hidden';   
-                                }     
-                            }
-                        }
-                     </script>
-                    <h3>
-                        Products
-                    </h3>
-                    <ul>
-                        <li><a href="javascript:unhide('1');" onclick="hideAll()">group 1</a></li>
-                        <ul id="1" class="hidden">
-                            <li>product 1</li>
-                            <li>product 2</li>
-                            <li>product 3</li>
-                            <li>product 4</li>
-                        </ul>
-                        <li><a href="javascript:unhide('2');" onclick="hideAll()">group 2</a></li>
-                        <ul id="2" class="hidden">
-                            <li>product 5</li>
-                            <li>product 6</li>
-                            <li>product 7</li>
-                            <li>product 8</li>
-                        </ul>
-                        <li><a href="javascript:unhide('3');" onclick="hideAll()">group 3</a></li>
-                        <ul id="3" class="hidden">
-                            <li>product 9</li>
-                            <li>product 10</li>
-                            <li>product 11</li>
-                            <li>product 12</li>
-                        </ul>
-                        <li><a href="javascript:unhide('4');" onclick="hideAll()">group 4</a></li>
-                        <ul id="4" class="hidden">
-                            <li>product 13</li>
-                            <li>product 14</li>
-                            <li>product 15</li>
-                            <li>product 16</li>
-                        </ul>
-                    </ul>
-                </div>
-
-            </div>
+            <div style="clear: both;">&nbsp;</div><!--THIS IS NEEDED FOR MAKING THE FOOTER GO ALL THE WAY TO THE BOTTOM-->
+           
         </div>
         <div id="footer">
-
+            <div id="footerLeft">
+                Company Name
+                <br />
+                Adress
+                <br />
+                Phone Number
+                <br />
+            </div>
+            <div id="footerRight">
+                Copyright
+                <br />
+                Developer
+                <br />
+            </div>
+            <br />
+            <div id="footerCenter">
+                <center>
+                    <table>
+                        <tr>
+                            <td>Home</td>
+                            <td>About Us</td>
+                            <td>Q & A</td>
+                        </tr>
+                    </table>
+                    <br />
+                    <br />
+                    <br />
+                </center>
+            </div>
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
