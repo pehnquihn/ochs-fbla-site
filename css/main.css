@@ -1,3 +1,4 @@
+ 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 /*
@@ -81,18 +82,6 @@ fieldset {
 textarea {
     resize: vertical;
 }
-
-/* ==========================================================================
-   Browse Happy prompt
-   ========================================================================== */
-
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -121,29 +110,26 @@ a:hover {
     text-decoration: underline;
 }
 
-.right {
-    float: right;
-}
 
-.left {
-    float: left;
-}
 
-.hidden {
-    display: none;
+#top{
+    background-color:#606060;
+    margin-bottom: 15px;
 }
 
 #top table {
-    width: 100%;
-    background-color: #606060;
-    padding: 25px;
-    margin-bottom: 15px;
     color: #00db98;
+    font-size: 1.2em;
+    text-align: center;
+
+    height:75px;
+
 }
 
 #top a {
     color: #00db98;
     text-decoration: none;
+    padding-left: 20px;
 }
 
 #top a:hover {
@@ -202,8 +188,6 @@ a:hover {
 
 #pic {
     width: 38%;
-    border: 4px dashed #fff;
-    height: 400px;
     float:right;
     margin-top: 20px;
 }
@@ -234,12 +218,33 @@ a:hover {
     list-style-type: none;
 }
 
-#menubar {
-    float: left;
+#menu {
+    float: center;
 }
 
 #menu ul {
     list-style-type: none;
+}
+
+#footer{
+    border-top: 4px solid #d9d9d9;
+    color:#959595;
+    background-color: #e9e9e9;
+    padding: 10px;
+}
+#footer a{
+    color: #a1a1a1;
+}
+#footerLeft{
+    float:left;
+    padding-left: 15px;
+}
+#footerRight{
+    float: right;
+    padding-right: 15px;
+}
+#footerCenter table td{
+    padding:20px;
 }
 
 /* ==========================================================================
@@ -349,8 +354,17 @@ a:hover {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 1000px) {
+   #top{
+    background-color:#000000;
+    margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    #menu{
+        margin-left: 50px;
+    }
 }
 
 @media print,
@@ -431,3 +445,4 @@ a:hover {
         page-break-after: avoid;
     }
 }
+
