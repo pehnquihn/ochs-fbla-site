@@ -302,12 +302,20 @@ footer {
         width: 928px;
     }
 
-    #descpic div {
+    #desc {
         width: 620px;
     }
 
     #extrainfo {
         width: 904px;
+    }
+
+    footer {
+        width: 1296px;
+    }
+
+    #footercolumn {
+        width: 400px;
     }
 
 }
