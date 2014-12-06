@@ -92,49 +92,60 @@ body {
 
 h1 {
     color: #00db98;
-    border-bottom: 12px solid #606060;
+    background-color: #1BA1E2;
+    color:#fff;
+    width:100%;
+    margin: 0px;
 }
 
 h2 {
     color: #00db98;
-    border-bottom: 8px solid #606060;
+    background-color: #1BA1E2;
+    color:#fff;
+    width:100%;
+    margin: 0px;
 }
 
 h3 {
-    color: #00db98;
-    border-bottom: 5px solid #606060;
+    color:#1BA1E2;
+    margin: 0px;
 
 }
 
 a:hover {
-    text-decoration: underline;
+
 }
 
 
 
 #top{
-    background-color:#606060;
+    background-color: #202020;
     margin-bottom: 15px;
+    padding: 0px;
 }
 
 #top table {
-    color: #00db98;
+    color: #fff;
     font-size: 1.2em;
-    text-align: center;
-
-    height:75px;
-
+}
+#top table td:hover{
+    background-color: #1BA1E2;
+}
+#top table tr{
+    padding-bottom: 0px;
 }
 
 #top a {
-    color: #00db98;
+    color: #fff;
     text-decoration: none;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 #top a:hover {
-    text-decoration: underline;
+
 }
+
 
 #Container {
 
@@ -147,16 +158,9 @@ a:hover {
 }
 
 .article {
-    background-color: #606060;
-    color: #00db98;
-    border: 3px solid #404040;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    box-shadow: 8px 8px 9px #808080;
-    -webkit-box-shadow: 8px 8px 9px #808080;
-    -moz-border-radius: 8px 8px 9px #808080;
-    padding: 15px;
+    background-color: #202020;
+    color: #a1a1a1;
+    padding-bottom: 15px;
     text-indent: 15px;
     margin: 10px;
     margin-right: 40px;
@@ -164,25 +168,19 @@ a:hover {
 }
 
 .article a {
-    color: #00db98;
+    color: #a1a1a1;
     text-decoration: none;
 }
 
 .productINFO {
-    background-color: #e6e6e6;
-    color: #006a49;
+    background-color: #ffffff;
+    color: #a1a1a1;
     border: 2px solid #606060;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
     padding: 15px;
     text-indent: 15px;
     margin: 10px;
     width: 55%;
     float: left;
-    box-shadow: 8px 8px 9px #474747;
-    -webkit-box-shadow: 8px 8px 9px #474747;
-    -moz-border-radius: 8px 8px 9px #474747;
 
 }
 
@@ -192,20 +190,14 @@ a:hover {
     margin-top: 20px;
 }
 .productINFO2 {
-    background-color: #e6e6e6;
-    color: #006a49;
+    background-color: #ffffff;
+    color: #a1a1a1;
     border: 2px solid #606060;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
     padding: 15px;
     text-indent: 15px;
     margin: 10px;
     width: 90%;
     float: left;
-    box-shadow: 8px 8px 9px #474747;
-    -webkit-box-shadow: 8px 8px 9px #474747;
-    -moz-border-radius: 8px 8px 9px #474747;
 }
 
 #product {
@@ -219,13 +211,40 @@ a:hover {
 }
 
 #menu {
-    float: center;
+
+
 }
 
 #menu ul {
     list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
 }
+#menu ul li{
+    background-color: #1BA1E2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#menu ul ul{
+    margin-top: 0px;
+    padding-right: 0px;
+}
+#menu ul ul li{
+    background-color: #fff;
+    color:#1ba1e2;
+    text-align: center;
+}
+#menu ul ul li a{
+    color:#1BA1E2;
+}
+#menu a{
+    color:#ffffff;
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
+}
 #footer{
     border-top: 4px solid #d9d9d9;
     color:#959595;
