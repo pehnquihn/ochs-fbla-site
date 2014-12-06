@@ -225,9 +225,16 @@ section .headtext {
     padding: 7px 24px 10px;
 }
 
-#descpic img {
+#pic {
     float: right;
+    height: 260px;
+    width: 260px;
     margin: 24px;
+}
+
+#pic:hover {
+    border: 2px #7ec1e2 solid;
+    margin: 22px;
 }
 
 #desc {
@@ -260,6 +267,25 @@ section .headtext {
     font-family: "Segoe UI", sans-serif, arial;
     color: #222;
     font-size: 12px;
+}
+
+footer {
+    width: 912px;
+    height: 132px;
+    background-color: #202020;
+    clear: both;
+    margin: 0 24px 24px;
+    -webkit-box-shadow: 0 0 10px #888;
+    -moz-box-shadow: 0 0 10px #888;
+    box-shadow: 0 0 10px #888;
+}
+
+#footercolumn {
+    display: inline-block;
+    height: 84px;
+    width: 272px;
+    margin: 24px 0 24px 24px;
+    background-color: #fff;
 }
 
 @media only screen and (min-width: 1330px) {
