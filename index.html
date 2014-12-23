@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <title>Product Information</title>
+        <title>home</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
@@ -15,6 +15,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/home.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
         <!-- Lightbox scripts -->
@@ -24,18 +25,13 @@
         <link href="css/lightbox.css" rel="stylesheet" />
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
         <header>
             <div class="headtext">
                 Company Name
             </div>
             <nav>
-                <a href="">Home</a>
-                <a href="">Products</a>
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
                 <a href="">Trips</a>
                 <a href="">Seminars</a>
                 <a href="">Q &amp; A</a>
@@ -43,93 +39,26 @@
             </nav>
         </header>
         <div id="content">
-            <script type="text/javascript">
-                function unhide(divID) {
-                    var item = document.getElementById(divID);
-                    if (item) {
-                        item.className=(item.className=='hidden')?'unhidden':'hidden';
-                    }
-                }
-                function hideAll() {     
-                    var divs = document.getElementsByTagName('div');     
-                    for(var i = divs.length; i-- ;) {         
-                        var div = divs[i];         
-                        if(div.className == 'unhidden') {             
-                            div.className ='hidden';   
-                        }     
-                    }
-                }
-            </script>
-            <aside>
+            <div id="mainContent">
                 <div class="headtext">
-                    Products
+                    Home
                 </div>
-                <a href="javascript:unhide('1');" onclick="hideAll()" id="productseries">
-                    Product Series 1
-                </a>
-                <div id="1" class="hidden">
-                    <a href="#" id="productentry">
-                        Product Entry 1
-                    </a>
-                    <a href="#" id="productentry">
-                        Product Entry 2
-                    </a>
-                </div>
-                <a href="javascript:unhide('2');" onclick="hideAll()" id="productseries">
-                    Product Series 2
-                </a>
-                <div id="2" class="hidden">
-                    <a href="#" id="productentry">
-                        Product Entry 3
-                    </a>
-                    <a href="#" id="productentry">
-                        Product Entry 4
-                    </a>
-                </div>
-                <a href="javascript:unhide('3');" onclick="hideAll()" id="productseries">
-                    Product Series 3
-                </a>
-                <div id="3" class="hidden">
-                    <a href="#" id="productentry">
-                        Product Entry 5
-                    </a>
-                    <a href="#" id="productentry">
-                        Product Entry 6
-                    </a>
-                </div>
-            </aside>
-            <section>
-                <div class="headtext">
-                    Product Name
-                </div>
-                <div id="descpic" class="clearfix">
-                    <div id="desc">
-                        <div class="infohead">
-                            Description
-                        </div id="desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem sed ipsum volutpat condimentum id ut nisi. Aenean consequat vitae est nec scelerisque. Nam at sollicitudin ligula. Aenean commodo felis ut nisl vehicula, et lacinia lectus rhoncus. Pellentesque pulvinar feugiat ipsum, a bibendum mauris tempus sed. Mauris auctor urna sed consequat semper. Sed euismod erat a sapien volutpat venenatis. Nulla a tellus vitae lacus vestibulum eleifend. Fusce vitae blandit purus. Donec molestie, massa at pulvinar porta, massa sapien commodo libero, vitae fringilla arcu erat eu libero. Phasellus eget consectetur elit, eu facilisis felis. Phasellus eget lacus tincidunt, eleifend odio ac, iaculis neque. Praesent sit amet elit eget ligula auctor iaculis vitae non dolor.
-                    </div>
-                    <div id="pic"><a href="http://www.placekitten.com/1000/1000" data-lightbox="place-kitten"><img src="http://www.placekitten.com/260/260" alt="Place Kitten"></a></div>
-                </div>
-                <div id="extrainfo">
+                <div id="about">
                     <div class="infohead">
-                        Specifications
+                        About Us
                     </div>
-                    <div id="extrainfotext">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem sed ipsum volutpat condimentum id ut nisi. Aenean consequat vitae est nec scelerisque. Nam at sollicitudin ligula. Aenean commodo felis ut nisl vehicula, et lacinia lectus rhoncus. Pellentesque pulvinar feugiat ipsum, a bibendum mauris tempus sed. Mauris auctor urna sed consequat semper. Sed euismod erat a sapien volutpat venenatis. Nulla a tellus vitae lacus vestibulum eleifend. Fusce vitae blandit purus. Donec molestie, massa at pulvinar porta, massa sapien commodo libero, vitae fringilla arcu erat eu libero. Phasellus eget consectetur elit, eu facilisis felis. Phasellus eget lacus tincidunt, eleifend odio ac, iaculis neque. Praesent sit amet elit eget ligula auctor iaculis vitae non dolor.
-                    </div>
+                        We are a small company that is just starting out here in the big NYC. We would enjoy the chance for us to share our love for the wonderful sport of cycling with you. Our staff are all very knolegable with many years of experience in the world of cyling. Come on down and we will set you up with everything you need to get out and hit the trails right away. If after talking to our staff you still feel like you want to know more befor you go out on an advanture of your own the we also offer seminars and guided trips to get you to feel as comfortable as possible.
                 </div>
-                <div id="extrainfo">
+                <img src="img/store.jpg" style="float:right; margin-top: 24px;">
+                <div id="mission">
                     <div class="infohead">
-                        Usage
+                        Our Mission
                     </div>
-                    <div id="extrainfotext">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem sed ipsum volutpat condimentum id ut nisi. Aenean consequat vitae est nec scelerisque. Nam at sollicitudin ligula. Aenean commodo felis ut nisl vehicula, et lacinia lectus rhoncus. Pellentesque pulvinar feugiat ipsum, a bibendum mauris tempus sed. Mauris auctor urna sed consequat semper. Sed euismod erat a sapien volutpat venenatis. Nulla a tellus vitae lacus vestibulum eleifend. Fusce vitae blandit purus. Donec molestie, massa at pulvinar porta, massa sapien commodo libero, vitae fringilla arcu erat eu libero. Phasellus eget consectetur elit, eu facilisis felis. Phasellus eget lacus tincidunt, eleifend odio ac, iaculis neque. Praesent sit amet elit eget ligula auctor iaculis vitae non dolor.
-                    </div>
+                        Here at Company Name we strive to share the passion for cycling that we have. We wish to help all of our customers start the path to a healthier life style on the right foot.
                 </div>
-            </section>
+                <img src="img/riding.jpg" style="float:left; margin-left:24px;">
+            </div>
         </div>
-        </body>
             <footer>
             <div id="footerLeft">
                 Company Name
@@ -160,7 +89,7 @@
             </div>
         </div>
         </footer>
-
+        </body>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
