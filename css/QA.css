@@ -1,0 +1,58 @@
+#content {
+    margin: 15px auto;
+    text-align: left;
+
+}
+#mainContent{
+    width:1100px;
+    margin: 0 60px 24px;
+    background-color: #202020;
+    -webkit-box-shadow: 0 0 10px #888;
+    -moz-box-shadow: 0 0 10px #888;
+    box-shadow: 0 0 10px #888;
+    float: left;
+}
+#mainContent .headtext{
+    width: 1052px;
+    text-align: left;
+    display: block;
+    padding: 7px 24px 10px;
+    font-size: 32px;
+}
+
+
+#box{
+    background-color: #fff;
+    width: 700px;
+    padding: 10px;
+    margin: 15px;
+}
+
+#aboutUs{
+    float: left;
+}
+
+#test{
+    float: right;
+    width: 290px;
+    margin-right: 25px;
+    margin-top: 15px;
+    padding: 10px;
+    background: #fff;
+
+}
+
+.question{
+    color:#1BA1E2;
+    border-bottom: 3px solid #202020;
+    padding: 10px;
+    text-align: left;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.answer{
+    color:#222;
+    padding:10px;
+
+}
