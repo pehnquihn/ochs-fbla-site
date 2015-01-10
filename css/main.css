@@ -362,6 +362,57 @@ footer table a{
     float: right;
 }
 
+@media only screen and (min-width: 1500px) {
+
+    .content {
+        width: 1536px;
+    }
+
+    #main_content .headtext {
+        width: 1488px;
+    }
+
+    #main_content article {
+        width: 1464px;
+    }
+
+    #navside_content section {
+        width: 1168px;
+    }
+
+    #navside_content section .headtext {
+        width: 1120px;
+    }
+
+    #navside_content #description article {
+        width: 812px;
+    }
+
+    #navside_content article {
+        width: 1096px;
+    }
+
+    #questions {
+        width: 1216px;
+        float: left;
+    }
+
+    #questions article {
+        width: 1144px;
+    }
+
+    #testimonials {
+        width: 320px;
+        float: right;
+    }
+
+    #testimonials article {
+        width: 272px;
+        margin: 0;
+    }
+
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
