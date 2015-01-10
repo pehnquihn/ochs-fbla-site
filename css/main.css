@@ -124,7 +124,7 @@ header .headtext {
     display: inline-block;
 }
 
-nav a {
+nav hgroup a {
     display: inline;
     padding: 35px 0.5% 17px;
     font-size: 24px;
