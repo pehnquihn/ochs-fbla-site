@@ -148,14 +148,14 @@ nav {
     width: 960px;
 }
 
-#main_content {
+#main_content, #qa_content {
     background-color: #202020;
     -webkit-box-shadow: 0 0 10px #888;
     -moz-box-shadow: 0 0 10px #888;
     box-shadow: 0 0 10px #888;
 }
 
-#main_content .headtext {
+#main_content .headtext, #qa_content .headtext {
     width: 912px;
     text-align: left;
     display: block;
@@ -173,27 +173,17 @@ article, #testimonials {
     width: 888px;
 }
 
-/*#qa_content article {
-    width: 500px;
-    float: left;
-}*/
-
-#qa article {
+#qa_content article {
     width: 560px;
     float: left;
 }
 
 #testimonials {
-    width: 282px;
+    width: 256px;
     float: right;
 }
 
-#testimonials article {
-    width: 248px;
-    margin: 1px 2px 3px 4px;
-}
-
-article header, #description header, #testimonials header {
+article header, #description header, #testimonails header {
     font-family: "Segoe UI Light", sans-serif, arial;
     color: #1BA1E2;
     font-size: 24px;
@@ -203,7 +193,7 @@ article header, #description header, #testimonials header {
     box-shadow: none;
 }
 
-article div, #testimonials {
+article div, #testimonails div {
     font-family: "Segoe UI", sans-serif, arial;
     color: #222;
     font-size: 16px;
