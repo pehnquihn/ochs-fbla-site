@@ -194,7 +194,6 @@ article {
 
 #main_content .offset_big_left, #main_content .offset_big_right {
     width: 640px;
-    height: 296px;
 }
 
 #main_content .offset_big_left, #main_content .offset_little_left {
@@ -203,7 +202,6 @@ article {
 
 #main_content .offset_big_left article, #main_content .offset_big_right article {
     width: 568px;
-    height: 272px;
 }
 
 #main_content .offset_little_right, #main_content .offset_little_left {
@@ -214,7 +212,7 @@ article {
     float: right;
 }
 
-#main_content .offset_little_right article, #main_content .offset_little_right article {
+#main_content .offset_little_right article, #main_content .offset_little_left article {
     width: 272px;
     margin: 0 0 24px;
 }
