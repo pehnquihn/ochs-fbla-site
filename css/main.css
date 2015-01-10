@@ -93,13 +93,17 @@ body {
     text-align: center;
 }
 
-.infohead {
+/*.infohead {
     font-family: "Segoe UI Light", sans-serif, arial;
     color: #1BA1E2;
     font-size: 24px;
+}*/
+
+#logohead {
+    float: left
 }
 
-#headlogo {
+#header_logo {
     float: left;
     width: 84px;
     height: 84px;
@@ -399,6 +403,57 @@ footer table a{
 
 .right{
     float: right;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    header {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    #logohead {
+        float: none;
+        width: 100%;
+        background-color: #1BA1E2;
+    }
+
+    nav {
+        padding: 12px 0;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    nav a img {
+        margin: 12px 0;
+        float: none;
+    }
+
+    hgroup {
+        display: block;
+    }
+
+    nav hgroup a {
+        padding: 12px 0;
+        text-align: center;
+        display: block;
+    }
+
+    #main_content {
+        margin: 0;
+        width: 100%;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    #main_content .headtext {
+        width: 100%;
+        padding: 0 0 0 24px;
+    }
+
 }
 
 @media only screen and (min-width: 1280px) {
