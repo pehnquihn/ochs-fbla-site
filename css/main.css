@@ -326,6 +326,7 @@ article div p {
 
 #navside_content article {
     width: 520px;
+    margin-top: 12px;
 }
 
 footer{
@@ -380,10 +381,80 @@ footer table a{
     float: right;
 }
 
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1559px) {
+    .content {
+        margin: 15px auto;
+        text-align: left;
+        width: 1100px;
+    }
+
+    #navside_content section{
+        width:692px;
+    }
+
+    #navside_content section .headtext{
+        width:644px;
+    }
+    #navside_content article {
+        width: 610px;
+    }
+
+    #navside_content aside {
+        width: 326px;
+    }
+
+    #navside_content aside {
+        width: 306px;
+    }
+
+    #twitter{
+        width:250px;
+        margin:20px auto;
+    }
+
+
+}
+
+@media only screen and (min-device-width: 960px) and (max-device-width: 1199px) {
+    .content {
+        margin: 15px auto;
+        text-align: left;
+        width: 960px;
+    }
+
+    #navside_content section{
+        width:596px;
+    }
+
+    #navside_content section .headtext{
+        width:547px;
+    }
+    #navside_content article {
+        width: 520px;
+    }
+
+    #navside_content aside {
+        width: 296px;
+    }
+
+    #navside_content aside {
+        width: 272px;
+    }
+
+    #twitter{
+        width:250px;
+        margin:20px auto;
+    }
+
+
+}
+
+
+
 @media only screen and (min-width: 1560px) {
 
     .content {
-        width: 1536px;
+        width: 1554px;
     }
 
     #main_content .headtext {
@@ -424,6 +495,10 @@ footer table a{
 
     #main_content .offset_big_right article {
         width: 1144px;
+    }
+    #twitter{
+        width:250px;
+        margin:20px auto;
     }
 
 }
