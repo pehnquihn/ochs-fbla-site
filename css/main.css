@@ -163,7 +163,7 @@ nav {
     margin: 0 0 24px;
 }
 
-article {
+article, #testimonials {
     padding: 12px;
     background-color: #fff;
     margin: 0 24px 24px;
@@ -173,7 +173,6 @@ article {
     width: 888px;
 }
 
-<<<<<<< HEAD
 /*#qa_content article {
     width: 500px;
     float: left;
@@ -195,9 +194,6 @@ article {
 }
 
 article header, #description header, #testimonials header {
-=======
-article header, #description header {
->>>>>>> parent of 8b88d62... Started standardizing qa, got to tired to finish
     font-family: "Segoe UI Light", sans-serif, arial;
     color: #1BA1E2;
     font-size: 24px;
@@ -207,11 +203,7 @@ article header, #description header {
     box-shadow: none;
 }
 
-<<<<<<< HEAD
 article div, #testimonials {
-=======
-article div {
->>>>>>> parent of 8b88d62... Started standardizing qa, got to tired to finish
     font-family: "Segoe UI", sans-serif, arial;
     color: #222;
     font-size: 16px;
