@@ -286,6 +286,10 @@ article div {
     font-size: 12px;
 }
 
+article div p {
+    text-indent: 20px;
+}
+
 /*
  * Footer CSS
  */
