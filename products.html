@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <title>Product Information</title>
+        <title>home</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
@@ -15,18 +15,15 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <!-- <link rel="stylesheet" href="css/products.css"> -->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-        <script src="js/main.js"></script>
+        <!-- Lightbox scripts -->
 
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <link href="css/lightbox.css" rel="stylesheet" />
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
         <header>
             <img src="img/logo.png" id="headlogo">
             <div class="headtext">
@@ -41,80 +38,46 @@
                 <a href="contact.html">Contact</a>
             </nav>
         </header>
-        <div id="navside_content" class="content">
-            <aside>
-                <div class="headtext">
-                    Products
-                </div>
-                <a href="javascript:unhide('1');" onclick="hideAll()" id="product_series">
-                    Product Series 1
-                </a>
-                <div id="1" class="hidden">
-                    <a href="#" id="product_entry" onClick="product1();">
-                        Product Entry 1
-                    </a>
-                    <a href="#" id="product_entry" onClick="product2();">
-                        Product Entry 2
-                    </a>
-                </div>
-                <a href="javascript:unhide('2');" onclick="hideAll()" id="product_series">
-                    Product Series 2
-                </a>
-                <div id="2" class="hidden">
-                    <a href="#" id="product_entry" onClick="product3();">
-                        Product Entry 3
-                    </a>
-                    <a href="#" id="product_entry" onClick="product4();">
-                        Product Entry 4
-                    </a>
-                </div>
-                <a href="javascript:unhide('3');" onclick="hideAll()" id="product_series">
-                    Product Series 3
-                </a>
-                <div id="3" class="hidden">
-                    <a href="#" id="product_entry" onClick="product5();">
-                        Product Entry 5
-                    </a>
-                    <a href="#" id="product_entry" onClick="product6();">
-                        Product Entry 6
-                    </a>
-                </div>
-            </aside>
-            <section>
-                <div class="headtext">
-                    Product Name
-                </div>
-                <div id="description" class="clearfix">
+        <div id="main_content" class="clearfix content">
+            <div class="headtext">
+                Products
+            </div>
+            <div class="clearfix">
+                <div class="offset_big_left">
                     <article>
                         <header>
-                            Description
+                            Product Series 1
                         </header>
                         <div>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem sed ipsum volutpat condimentum id ut nisi. Aenean consequat vitae est nec scelerisque. Nam at sollicitudin ligula. Aenean commodo felis ut nisl vehicula, et lacinia lectus rhoncus. Pellentesque pulvinar feugiat ipsum, a bibendum mauris tempus sed. Mauris auctor urna sed consequat semper. Sed euismod erat a sapien volutpat venenatis. Nulla a tellus vitae lacus vestibulum eleifend. Fusce vitae blandit purus. Donec molestie, massa at pulvinar porta, massa sapien commodo libero, vitae fringilla arcu erat eu libero. Phasellus eget consectetur elit, eu facilisis felis. Phasellus eget lacus tincidunt, eleifend odio ac, iaculis neque. Praesent sit amet elit eget ligula auctor iaculis vitae non dolor.
+                            Here is product series one<br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem sed ipsum volutpat condimentum id ut nisi. Aenean consequat vitae est nec scelerisque. Nam at sollicitudin ligula. Aenean commodo felis ut nisl vehicula, et lacinia lectus rhoncus. Pellentesque pulvinar feugiat ipsum, a bibendum mauris tempus sed. Mauris auctor urna sed consequat semper. Sed euismod erat a sapien volutpat venenatis. Nulla a tellus vitae lacus vestibulum eleifend. Fusce vitae blandit purus. Donec molestie, massa at pulvinar porta, massa sapien commodo libero, vitae fringilla arcu erat eu libero. Phasellus eget consectetur elit, eu facilisis felis. Phasellus eget lacus tincidunt, eleifend odio ac, iaculis neque. Praesent sit amet elit eget ligula auctor iaculis vitae non dolor.<br>
+                            <a href="">Go to Product series</a>
                         </div>
                     </article>
-                    <div id="product_picture"><img src="http://www.placekitten.com/260/260" alt="Place Kitten"></div>
                 </div>
-                <article>
-                    <header>
-                        Specifications
-                    </header>
-                    <div>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem sed ipsum volutpat condimentum id ut nisi. Aenean consequat vitae est nec scelerisque. Nam at sollicitudin ligula. Aenean commodo felis ut nisl vehicula, et lacinia lectus rhoncus. Pellentesque pulvinar feugiat ipsum, a bibendum mauris tempus sed. Mauris auctor urna sed consequat semper. Sed euismod erat a sapien volutpat venenatis. Nulla a tellus vitae lacus vestibulum eleifend. Fusce vitae blandit purus. Donec molestie, massa at pulvinar porta, massa sapien commodo libero, vitae fringilla arcu erat eu libero. Phasellus eget consectetur elit, eu facilisis felis. Phasellus eget lacus tincidunt, eleifend odio ac, iaculis neque. Praesent sit amet elit eget ligula auctor iaculis vitae non dolor.
-                    </div>
-                </article>
-                <article>
-                    <header>
-                        Usage
-                    </header>
-                    <div>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem sed ipsum volutpat condimentum id ut nisi. Aenean consequat vitae est nec scelerisque. Nam at sollicitudin ligula. Aenean commodo felis ut nisl vehicula, et lacinia lectus rhoncus. Pellentesque pulvinar feugiat ipsum, a bibendum mauris tempus sed. Mauris auctor urna sed consequat semper. Sed euismod erat a sapien volutpat venenatis. Nulla a tellus vitae lacus vestibulum eleifend. Fusce vitae blandit purus. Donec molestie, massa at pulvinar porta, massa sapien commodo libero, vitae fringilla arcu erat eu libero. Phasellus eget consectetur elit, eu facilisis felis. Phasellus eget lacus tincidunt, eleifend odio ac, iaculis neque. Praesent sit amet elit eget ligula auctor iaculis vitae non dolor.
-                    </div>
-                </article>
-            </section>
+                <div class="offset_little_right">
+                    <img src="http://www.placecage.com/500/500" alt="Product 1">
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="offset_big_right">
+                    <article>
+                        <header>
+                            Product Series 2
+                        </header>
+                        <div>
+                            Here is product series two<br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem sed ipsum volutpat condimentum id ut nisi. Aenean consequat vitae est nec scelerisque. Nam at sollicitudin ligula. Aenean commodo felis ut nisl vehicula, et lacinia lectus rhoncus. Pellentesque pulvinar feugiat ipsum, a bibendum mauris tempus sed. Mauris auctor urna sed consequat semper. Sed euismod erat a sapien volutpat venenatis. Nulla a tellus vitae lacus vestibulum eleifend. Fusce vitae blandit purus. Donec molestie, massa at pulvinar porta, massa sapien commodo libero, vitae fringilla arcu erat eu libero. Phasellus eget consectetur elit, eu facilisis felis. Phasellus eget lacus tincidunt, eleifend odio ac, iaculis neque. Praesent sit amet elit eget ligula auctor iaculis vitae non dolor.<br>
+                            <a href="">Go to Product series</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="offset_little_left">
+                    <img src="http://www.placecage.com/500/500" alt="Product 2">
+                </div>
+            </div>
         </div>
-        </body>
-           <footer>
+            <footer>
             <div id="footerLeft">
                 Cycle Fitness
                 <br />
@@ -154,7 +117,7 @@
             </div>
         </div>
         </footer>
-
+        </body>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
