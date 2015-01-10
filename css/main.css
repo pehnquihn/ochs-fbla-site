@@ -266,7 +266,7 @@ article div p {
 
 #twitter {
     width: 250px;
-    margin:12px 24px;
+    margin: 12px 12px;
 }
 
 
@@ -405,7 +405,7 @@ footer table a{
 @media only screen and (min-width: 1280px) {
 
     #twitter {
-        margin: 12 24px;
+        margin: 12px 24px;
     }
 
     #navside_content aside {
