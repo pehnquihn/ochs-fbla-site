@@ -362,7 +362,7 @@ footer table a{
     float: right;
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1560px) {
 
     .content {
         width: 1536px;
