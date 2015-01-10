@@ -173,6 +173,25 @@ article {
     width: 888px;
 }
 
+#questions {
+    width: 640px;
+    float: left;
+}
+
+#questions article {
+    width: 568px;
+}
+
+#testimonials {
+    width: 320px;
+    float: right;
+}
+
+#testimonials article {
+    width: 272px;
+    margin: 0;
+}
+
 article header, #description header {
     font-family: "Segoe UI Light", sans-serif, arial;
     color: #1BA1E2;
