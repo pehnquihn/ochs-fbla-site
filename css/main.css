@@ -173,21 +173,21 @@ article {
     width: 888px;
 }
 
-#questions {
+#main_content .offset_big_left {
     width: 640px;
     float: left;
 }
 
-#questions article {
+#main_content .offset_big_left article {
     width: 568px;
 }
 
-#testimonials {
+#main_content .offset_little_right {
     width: 320px;
     float: right;
 }
 
-#testimonials article {
+#main_content .offset_little_right article {
     width: 272px;
     margin: 0;
 }
@@ -392,21 +392,21 @@ footer table a{
         width: 1096px;
     }
 
-    #questions {
+    #main_content .offset_big_left {
         width: 1216px;
         float: left;
     }
 
-    #questions article {
+    #main_content .offset_big_left article {
         width: 1144px;
     }
 
-    #testimonials {
+    #main_content .offset_little_right {
         width: 320px;
         float: right;
     }
 
-    #testimonials article {
+    #main_content .offset_little_right article {
         width: 272px;
         margin: 0;
     }
