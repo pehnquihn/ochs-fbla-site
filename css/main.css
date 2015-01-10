@@ -159,7 +159,7 @@ nav {
     width: 912px;
     text-align: left;
     display: block;
-    padding: 7px 24px 10px;
+    padding: 0px 24px 0px;
     margin: 0 0 24px;
 }
 
@@ -209,6 +209,7 @@ article div p {
     display: block;
     text-align: center;
     margin: 0 0 24px;
+    padding: 0 12px 0;
 }
 
 #product_series {
@@ -263,7 +264,7 @@ article div p {
     width: 544px;
     text-align: left;
     display: block;
-    padding: 7px 24px 10px;
+    padding: 0px 24px 0px;
 }
 
 #navside_content #description article {
