@@ -1,4 +1,23 @@
 
+
+function unhide(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+        item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+}
+
+function hideAll() {     
+    var divs = document.getElementsByTagName('div');     
+    for(var i = divs.length; i-- ;) {         
+        var div = divs[i];         
+        if(div.className == 'unhidden') {             
+            div.className ='hidden';   
+        }     
+    }
+}
+                
+
 function product1(){
 	$('#desc').html("Bianchi's Cortina Dama is perfect for getting around town and campus, running errands, commuting in style, and just having a great time outdoors. It delivers a sweet ride thanks to the light aluminum frame, easy-rolling 700c wheels, and plush seat. Plus, with its hill-topping 24-speed drivetrain, powerful brakes, and comfortable riding position, the Cortina is perfect for every adventure");
 	$('#pic').html("<img src='img/bike1.jpg'  />");

@@ -15,14 +15,8 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/products.css">
+        <!-- <link rel="stylesheet" href="css/products.css"> -->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-
-        <!-- Lightbox scripts -->
-
-        <script src="js/jquery-1.11.0.min.js"></script>
-        <script src="js/lightbox.min.js"></script>
-        <link href="css/lightbox.css" rel="stylesheet" />
 
         <script src="js/main.js"></script>
 
@@ -41,64 +35,47 @@
             <nav>
                 <a href="index.html">Home</a>
                 <a href="products.html">Products</a>
-                <a href="">Trips</a>
+                <a href="trips.html">Trips</a>
                 <a href="">Seminars</a>
-                <a href="QA.html">Q &amp; A</a>
+                <a href="qa.html">Q &amp; A</a>
                 <a href="contact.html">Contact</a>
             </nav>
         </header>
-        <div id="content">
-            <script type="text/javascript">
-                function unhide(divID) {
-                    var item = document.getElementById(divID);
-                    if (item) {
-                        item.className=(item.className=='hidden')?'unhidden':'hidden';
-                    }
-                }
-                function hideAll() {     
-                    var divs = document.getElementsByTagName('div');     
-                    for(var i = divs.length; i-- ;) {         
-                        var div = divs[i];         
-                        if(div.className == 'unhidden') {             
-                            div.className ='hidden';   
-                        }     
-                    }
-                }
-            </script>
+        <div id="navside_content" class="content">
             <aside>
                 <div class="headtext">
                     Products
                 </div>
-                <a href="javascript:unhide('1');" onclick="hideAll()" id="productseries">
+                <a href="javascript:unhide('1');" onclick="hideAll()" id="product_series">
                     Product Series 1
                 </a>
                 <div id="1" class="hidden">
-                    <a href="#" id="productentry" onClick="product1();">
+                    <a href="#" id="product_entry" onClick="product1();">
                         Product Entry 1
                     </a>
-                    <a href="#" id="productentry" onClick="product2();">
+                    <a href="#" id="product_entry" onClick="product2();">
                         Product Entry 2
                     </a>
                 </div>
-                <a href="javascript:unhide('2');" onclick="hideAll()" id="productseries">
+                <a href="javascript:unhide('2');" onclick="hideAll()" id="product_series">
                     Product Series 2
                 </a>
                 <div id="2" class="hidden">
-                    <a href="#" id="productentry" onClick="product3();">
+                    <a href="#" id="product_entry" onClick="product3();">
                         Product Entry 3
                     </a>
-                    <a href="#" id="productentry" onClick="product4();">
+                    <a href="#" id="product_entry" onClick="product4();">
                         Product Entry 4
                     </a>
                 </div>
-                <a href="javascript:unhide('3');" onclick="hideAll()" id="productseries">
+                <a href="javascript:unhide('3');" onclick="hideAll()" id="product_series">
                     Product Series 3
                 </a>
                 <div id="3" class="hidden">
-                    <a href="#" id="productentry" onClick="product5();">
+                    <a href="#" id="product_entry" onClick="product5();">
                         Product Entry 5
                     </a>
-                    <a href="#" id="productentry" onClick="product6();">
+                    <a href="#" id="product_entry" onClick="product6();">
                         Product Entry 6
                     </a>
                 </div>
@@ -107,31 +84,33 @@
                 <div class="headtext">
                     Product Name
                 </div>
-                <div id="descpic" class="clearfix">
-                    <div id="desc">
-                        <div class="infohead">
+                <div id="description" class="clearfix">
+                    <article>
+                        <header>
                             Description
-                        </div id="desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem sed ipsum volutpat condimentum id ut nisi. Aenean consequat vitae est nec scelerisque. Nam at sollicitudin ligula. Aenean commodo felis ut nisl vehicula, et lacinia lectus rhoncus. Pellentesque pulvinar feugiat ipsum, a bibendum mauris tempus sed. Mauris auctor urna sed consequat semper. Sed euismod erat a sapien volutpat venenatis. Nulla a tellus vitae lacus vestibulum eleifend. Fusce vitae blandit purus. Donec molestie, massa at pulvinar porta, massa sapien commodo libero, vitae fringilla arcu erat eu libero. Phasellus eget consectetur elit, eu facilisis felis. Phasellus eget lacus tincidunt, eleifend odio ac, iaculis neque. Praesent sit amet elit eget ligula auctor iaculis vitae non dolor.
-                    </div>
-                    <div id="pic"><a href="http://www.placekitten.com/1000/1000" data-lightbox="place-kitten"><img src="http://www.placekitten.com/260/260" alt="Place Kitten"></a></div>
+                        </header>
+                        <div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem sed ipsum volutpat condimentum id ut nisi. Aenean consequat vitae est nec scelerisque. Nam at sollicitudin ligula. Aenean commodo felis ut nisl vehicula, et lacinia lectus rhoncus. Pellentesque pulvinar feugiat ipsum, a bibendum mauris tempus sed. Mauris auctor urna sed consequat semper. Sed euismod erat a sapien volutpat venenatis. Nulla a tellus vitae lacus vestibulum eleifend. Fusce vitae blandit purus. Donec molestie, massa at pulvinar porta, massa sapien commodo libero, vitae fringilla arcu erat eu libero. Phasellus eget consectetur elit, eu facilisis felis. Phasellus eget lacus tincidunt, eleifend odio ac, iaculis neque. Praesent sit amet elit eget ligula auctor iaculis vitae non dolor.
+                        </div>
+                    </article>
+                    <div id="product_picture"><img src="http://www.placekitten.com/260/260" alt="Place Kitten"></div>
                 </div>
-                <div id="extrainfo">
-                    <div class="infohead">
+                <article>
+                    <header>
                         Specifications
-                    </div>
-                    <div id="extrainfotext">
+                    </header>
+                    <div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem sed ipsum volutpat condimentum id ut nisi. Aenean consequat vitae est nec scelerisque. Nam at sollicitudin ligula. Aenean commodo felis ut nisl vehicula, et lacinia lectus rhoncus. Pellentesque pulvinar feugiat ipsum, a bibendum mauris tempus sed. Mauris auctor urna sed consequat semper. Sed euismod erat a sapien volutpat venenatis. Nulla a tellus vitae lacus vestibulum eleifend. Fusce vitae blandit purus. Donec molestie, massa at pulvinar porta, massa sapien commodo libero, vitae fringilla arcu erat eu libero. Phasellus eget consectetur elit, eu facilisis felis. Phasellus eget lacus tincidunt, eleifend odio ac, iaculis neque. Praesent sit amet elit eget ligula auctor iaculis vitae non dolor.
                     </div>
-                </div>
-                <div id="extrainfo">
-                    <div class="infohead">
+                </article>
+                <article>
+                    <header>
                         Usage
-                    </div>
-                    <div id="extrainfotext">
+                    </header>
+                    <div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem sed ipsum volutpat condimentum id ut nisi. Aenean consequat vitae est nec scelerisque. Nam at sollicitudin ligula. Aenean commodo felis ut nisl vehicula, et lacinia lectus rhoncus. Pellentesque pulvinar feugiat ipsum, a bibendum mauris tempus sed. Mauris auctor urna sed consequat semper. Sed euismod erat a sapien volutpat venenatis. Nulla a tellus vitae lacus vestibulum eleifend. Fusce vitae blandit purus. Donec molestie, massa at pulvinar porta, massa sapien commodo libero, vitae fringilla arcu erat eu libero. Phasellus eget consectetur elit, eu facilisis felis. Phasellus eget lacus tincidunt, eleifend odio ac, iaculis neque. Praesent sit amet elit eget ligula auctor iaculis vitae non dolor.
                     </div>
-                </div>
+                </article>
             </section>
         </div>
         </body>
@@ -161,13 +140,13 @@
                         <tr>
                             <td><a href="index.html">Home</a></td>
                             <td><a href="products.html">Products</a></td>
-                            <td><a href="">Trips</a></td>                        
+                            <td><a href="trips.html">Trips</a></td>                        
                             <td><a href="">Seminars</a></td>
                         </tr>
                         <tr>
                             <td></td>
-                            <td><a href="QA.html">Q &amp; A</a></td>
-                            <td><a href="">Contact</a></td>
+                            <td><a href="qa.html">Q &amp; A</a></td>
+                            <td><a href="contact.html">Contact</a></td>
                         </tr>
                     </table>
                     <br />
