@@ -122,7 +122,7 @@ header .headtext {
 
 nav a {
     display: inline;
-    padding: 35px 1.25% 17px;
+    padding: 35px .5% 17px;
     font-size: 24px;
     color: #fff;
     text-decoration: none !important;
