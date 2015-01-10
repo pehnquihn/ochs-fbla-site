@@ -91,6 +91,7 @@ html {
 
 body {
     text-align: center;
+    background-image: url("../img/bg.jpg");
 }
 
 /*.infohead {
@@ -130,7 +131,7 @@ header .headtext {
 
 nav hgroup a {
     display: inline;
-    padding: 35px 0.5% 17px;
+    padding: 35px 0.75% 17px;
     font-size: 24px;
     color: #fff;
     text-decoration: none !important;
@@ -193,6 +194,7 @@ article {
 
 #main_content .offset_big_left, #main_content .offset_big_right {
     width: 640px;
+    height: 296px;
 }
 
 #main_content .offset_big_left, #main_content .offset_little_left {
@@ -201,6 +203,7 @@ article {
 
 #main_content .offset_big_left article, #main_content .offset_big_right article {
     width: 568px;
+    height: 272px;
 }
 
 #main_content .offset_little_right, #main_content .offset_little_left {
