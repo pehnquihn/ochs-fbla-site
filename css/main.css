@@ -132,18 +132,17 @@ nav a {
     text-decoration: none !important;
 }
 
-nav a:hover {
+hgroup {
+    display: inline;
+}
+
+nav hgroup a:hover {
     background-color: #1BA1E2;
     -webkit-box-shadow: 0 0 5px #0097e0;
     -moz-box-shadow: 0 0 5px #0097e0;
     box-shadow: 0 0 5px #0097e0;
 }
-nav a img:hover {
-    background-color: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
+
 nav a img {
     float:right;
     padding: 0.5% 12px;
