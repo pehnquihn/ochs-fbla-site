@@ -336,7 +336,7 @@ article div p {
     padding: 12px;
     background-color: #fff;
     width: 260px;
-    height: 236px;
+    min-height: 236px;
     color: #222;
     overflow: hidden;
     font-size: 12px;
@@ -347,6 +347,11 @@ article div p {
     height: 260px;
     width: 260px;
     margin: 24px 24px 0;
+}
+
+#product_picture img {
+    height: 260px;
+    width: 260px;
 }
 
 #navside_content article {
