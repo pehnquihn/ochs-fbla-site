@@ -260,6 +260,10 @@ article div {
     background-color: #fff;
 }
 
+article div #ws_bullets {
+    background-color: none;
+}
+
 article div p {
     text-indent: 20px;
 }
