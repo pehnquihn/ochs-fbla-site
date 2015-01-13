@@ -98,11 +98,13 @@
 	float: left;
 	position:absolute;
 	z-index:70;
+	background-color: transparent;
 }
 #wowslider-container0  .ws_bullets div{
 	position:relative;
 	float:left;
 	font-size: 0px;
+	background-color: transparent;
 }
 /* compatibility with Joomla styles */
 #wowslider-container0  .ws_bullets a {
