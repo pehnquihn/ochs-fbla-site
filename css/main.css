@@ -210,8 +210,11 @@ article {
 }
 
 #main_content .offset_big_left article, #main_content .offset_big_right article {
-    min-height: 272px;
     width: 568px;
+}
+
+#main_content .offset_big_right article {
+    min-height: 272px;
 }
 
 #main_content .offset_little_right, #main_content .offset_little_left {
@@ -584,7 +587,6 @@ footer table a{
     #main_content .offset_big_left article {
         width: 90%;
         padding: 5%;
-        min-height: 0;
     }
 
     #main_content .offset_little_right {
