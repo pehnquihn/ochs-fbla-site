@@ -538,6 +538,7 @@ footer table a{
     #navside_content section .headtext {
         width: 90%;
         padding: 0 0 0 10%;
+        font-size: 24px;
     }
 
     #navside_content section {
@@ -553,6 +554,7 @@ footer table a{
         width: 90%;
         padding: 5%;
         margin: 5% 0 0;
+        min-height: 0;
     }
 
     #navside_content section #product_picture {
