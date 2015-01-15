@@ -249,7 +249,8 @@ article {
 article header, #description header {
     font-family: "Segoe UI Light", sans-serif, arial;
     color: #1BA1E2;
-    font-size: 24px;
+    font-weight: bold;
+    font-size: 30px;
     border-bottom: 2px solid #202020;
     -webkit-wz-box-shadow: none;
     -moz-wz-box-shadow: none;
