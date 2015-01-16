@@ -201,6 +201,10 @@ article {
     width: 888px;
 }
 
+#main_content article ul {
+    list-style-type: square;
+}
+
 #main_content .offset_big_left, #main_content .offset_big_right {
     width: 640px;
 }
