@@ -251,14 +251,18 @@ article {
 }
 
 article header, #description header {
+    border-bottom: 2px solid #202020;
+}
+
+article header, #description header, #product_picture {
     font-family: "Segoe UI Light", sans-serif, arial;
     color: #1BA1E2;
     font-weight: bold;
     font-size: 30px;
-    border-bottom: 2px solid #202020;
     -webkit-wz-box-shadow: none;
     -moz-wz-box-shadow: none;
     box-shadow: none;
+    background-color: #fff;
 }
 
 article div {
@@ -369,15 +373,16 @@ article div table tr td{
     padding: 12px;
     background-color: #fff;
     width: 260px;
-    min-height: 236px;
+    min-height: 278px;
     color: #222;
     overflow: hidden;
     font-size: 12px;
 }
 
 #product_picture {
+    text-align: center;
     float: right;
-    height: 260px;
+    height: 302px;
     width: 260px;
     margin: 24px 24px 0;
 }
