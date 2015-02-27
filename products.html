@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/main.js"></script>
         <link rel="icon" href="../../img/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
 
     </head>
@@ -50,9 +52,40 @@
                         What Bike is Right for You?
                     </header>
                     <p>Each type of bike has its own advantages and disadvantages. If you are new to the hobby, then you should take time to think of what you would like to do with your bike. Figure out if you will be using your bike for racing or leisure. You should also think of what type of path you will be riding on. Different bikes are built for different terrains. </p>
+                    <br />
+                    <div>
+                        <header>
+                            Need Help Picking a Bike? 
+                        </header>
+                            <FORM NAME="bikeChoice" ACTION="" METHOD="GET">
+                            Use for Bike:
+                            <select NAME="list" SIZE="1">
+                                <OPTION value='0'>Mainly Road Races</option>
+                                <OPTION value='1'>Mainly off Road/trail riding</option>
+                                <OPTION value='2'>Leisurely riding in trail and road</option>
+                                <OPTION value='3'>Cyclocross racing</option>
+                            </select>
+                            <br>
+                            <br>
+                            Price Range:
+                            <SELECT NAME="list2" SIZE="1">
+                                <OPTION>Under $1000</option>
+                                <OPTION>Between $1000 and $2000</option>
+                                <OPTION>More than $2000</option>
+                            </SELECT>
+
+                            <br>
+                            <INPUT style="float:right;" TYPE="button" NAME="button" Value="Find My Perfect Bike" onClick="testSelect(this.form)">
+                            </FORM>
+                            </br>
+                            <div id="pic" Style="display:none;">
+                            <p>Your Perfect Bike</p>
+
+                            </div>
+                    </div>
                 </article>
                 <div class="offset_little_left">
-                    <a href="product_catagory/road.html#top"><img src="img/road1.jpg" alt="road bikes"></a>
+                    <a href="product_catagory/road.html#top"><img src="img/road.jpg" alt="road bikes"></a>
                 </div>
                 <div class="offset_big_right">
                     <article>
@@ -69,7 +102,7 @@
             </div>
             <div class="clearfix">
                 <div class="offset_little_left">
-                    <a href="product_catagory/mountain.html#top"><img src="img/mountainBike1.jpg" alt="Product 2"></a>
+                    <a href="product_catagory/mountain.html#top"><img src="img/mountainBike.jpg" alt="Product 2"></a>
                 </div>
                 <div class="offset_big_right">
                     <article>
@@ -86,7 +119,7 @@
             </div>
             <div class="clearfix">
                 <div class="offset_little_left">
-                    <a href="product_catagory/cycolcross.html#top"><img src="img/cyclocross1.jpg" alt="Product 2"></a>
+                    <a href="product_catagory/cycolcross.html#top"><img src="img/cyclocross.jpg" alt="Product 2"></a>
                 </div>
                 <div class="offset_big_right">
                     <article>
@@ -103,7 +136,7 @@
             </div>
             <div class="clearfix">
                 <div class="offset_little_left">
-                    <a href="product_catagory/folding.html#top"><img src="img/foldingbike1.jpg" alt="folding bike"></a>
+                    <a href="product_catagory/folding.html#top"><img src="img/foldingbike.jpg" alt="folding bike"></a>
                 </div>
                 <div class="offset_big_right">
                     <article>
@@ -120,24 +153,24 @@
             </div>
             <div class="clearfix">
                 <div class="offset_little_left">
-                    <a href="product_catagory/electric.html#top"><img src="img/e-bike1.jpg" alt="Electric-assist"></a>
+                    <a href="product_catagory/electric.html#top"><img src="img/e-bike.jpg" alt="Electric-assist"></a>
                 </div>
                 <div class="offset_big_right">
                     <article>
                         <a name="electric"></a>
                         <header>
-                            <a href="product_catagory/electric.html#top">Electric-assist Bikes</a>
+                            <a href="product_catagory/electric.html#top">Electric-Assist Bikes</a>
                         </header>
                         <div>
-                           <p>Electric-assist bikes are very versatile. They are becoming very popular with people in urban areas. Many people are starting to use them to replace their cars when they are commuting to work or running errands. Electric-assist bikes allow people to travel at faster speeds with little work. With today’s high gas prices, the plug and go nature matched with its versatility makes it much more convienent.</p>
-                            <a href="product_catagory/electric.html#top">Go to Electric-assist Bikes</a>
+                           <p>Electric-Assist bikes are very versatile. They are becoming very popular with people in urban areas. Many people are starting to use them to replace their cars when they are commuting to work or running errands. Electric-assist bikes allow people to travel at faster speeds with little work. With today’s high gas prices, the plug and go nature matched with its versatility makes it much more convienent.</p>
+                            <a href="product_catagory/electric.html#top">Go to Electric-Assist Bikes</a>
                         </div>
                     </article>
                 </div>
             </div>
             <div class="clearfix">
                 <div class="offset_little_left">
-                    <a href="product_catagory/woman.html#top"><img src="img/womans1.jpg" alt="Womans bike"></a>
+                    <a href="product_catagory/woman.html#top"><img src="img/womans.jpg" alt="Womans bike"></a>
                 </div>
                 <div class="offset_big_right">
                     <article>
@@ -154,7 +187,7 @@
             </div>
             <div class="clearfix">
                 <div class="offset_little_left">
-                    <a href="product_catagory/children.html#top"><img src="img/children1.jpg" alt="Children bike"></a>
+                    <a href="product_catagory/children.html#top"><img src="img/children.jpg" alt="Children bike"></a>
                 </div>
                 <div class="offset_big_right">
                     <article>
