@@ -385,6 +385,7 @@ article div table tr td{
     height: 302px;
     width: 260px;
     margin: 24px 24px 0;
+    color:#E41F29;
 }
 
 #product_picture img {
@@ -517,6 +518,8 @@ footer table a{
         text-align: center;
         display: block;
     }
+
+
 
     #main_content {
         margin: 0;
