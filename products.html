@@ -20,8 +20,8 @@
         <link rel="icon" href="../../img/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
 
     </head>
-    <body>
-                <header>
+    <body onload="showjs()">
+        <header>
             <div id="logohead" class="clearfix">
                 <a href="index.html"><img src="img/logo.png" id="header_logo"></a>
                 <div class="headtext">
@@ -53,35 +53,8 @@
                     </header>
                     <p>Each type of bike has its own advantages and disadvantages. If you are new to the hobby, then you should take time to think of what you would like to do with your bike. Figure out if you will be using your bike for racing or leisure. You should also think of what type of path you will be riding on. Different bikes are built for different terrains. </p>
                     <br />
-                    <div>
-                        <header>
-                            Need Help Picking a Bike? 
-                        </header>
-                            <FORM NAME="bikeChoice" ACTION="" METHOD="GET">
-                            Use for Bike:
-                            <select NAME="list" SIZE="1">
-                                <OPTION value='0'>Mainly Road Races</option>
-                                <OPTION value='1'>Mainly off Road/trail riding</option>
-                                <OPTION value='2'>Leisurely riding in trail and road</option>
-                                <OPTION value='3'>Cyclocross racing</option>
-                            </select>
-                            <br>
-                            <br>
-                            Price Range:
-                            <SELECT NAME="list2" SIZE="1">
-                                <OPTION>Under $1000</option>
-                                <OPTION>Between $1000 and $2000</option>
-                                <OPTION>More than $2000</option>
-                            </SELECT>
-
-                            <br>
-                            <INPUT style="float:right;" TYPE="button" NAME="button" Value="Find My Perfect Bike" onClick="testSelect(this.form)">
-                            </FORM>
-                            </br>
-                            <div id="pic" Style="display:none;">
-                            <p>Your Perfect Bike</p>
-
-                            </div>
+                    <div id="bikeFinder" class="remove_for_mobile">
+                         
                     </div>
                 </article>
                 <div class="offset_little_left">
