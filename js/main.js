@@ -18,7 +18,7 @@ function hideAll() {
 }
 
 function showjs() {
-	$('#bikeFinder').html('<header> Need Help Picking a Bike? </header> <FORM NAME="bikeChoice" ACTION="" METHOD="GET"> Use for Bike: <select NAME="list" SIZE="1"> <OPTION value="0">Mainly Road Races</option> <OPTION value="1">Mainly off Road/trail riding</option> <OPTION value="2">Leisurely riding in trail and road</option> </select> <br> <br> Price Range: <SELECT NAME="list2" SIZE="1"> <OPTION>Under $1000</option> <OPTION>Between $1000 and $2000</option> <OPTION>More than $2000</option> </SELECT> <br> <INPUT style="float:right;" TYPE="button" NAME="button" Value="Find My Perfect Bike" onClick="testSelect(this.form)"> </FORM> </br> <div id="pic" Style="display:none;"> <p>Your Perfect Bike</p> </div>');
+	$('#bikeFinder').html('<header> Need Help Picking a Bike? </header></br> <FORM NAME="bikeChoice" ACTION="" METHOD="GET"> Use for Bike: <select NAME="list" SIZE="1"> <OPTION value="0">Mainly Road Races</option> <OPTION value="1">Mainly off Road/trail riding</option> <OPTION value="2">Leisurely riding in trail and road</option> </select> <br> <br> Price Range: <SELECT NAME="list2" SIZE="1"> <OPTION>Under $1000</option> <OPTION>Between $1000 and $2000</option> <OPTION>More than $2000</option> </SELECT> <br> <INPUT style="float:right;" TYPE="button" NAME="button" Value="Find My Perfect Bike" onClick="testSelect(this.form)"> </FORM> </br> <div id="pic" Style="display:none;"> <p>Your Perfect Bike</p> </div>');
 }
                 
 
