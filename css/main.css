@@ -398,6 +398,10 @@ article div table tr td{
     margin: 24px;
 }
 
+#navside_content article table td {
+    text-align: left;
+}
+
 footer{
     border-top: 4px solid #e9e9e9;
     color:#959595;
